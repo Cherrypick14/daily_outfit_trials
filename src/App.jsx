@@ -1,15 +1,28 @@
 import './App.css'
+import Outfits from './components/outfits'
+
 
 function App() {
-  
+  const daysofweek =[
+    'Monday',
+    'Tuesday', 
+    'Wednesday', 
+    'Thursday', 
+    'Friday', 
+    'Saturday', 
+    'Friday', 
+    'Saturday', 
+    'Sunday']
   return (
     <>
-      <h1>Vite + React</h1>
       <div className="card">
-      
-        <p className='text-3xl font-bold underline text-red-700'>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <h1 className='text-red-600 text-lg'>Welcome t my Outfit Closet </h1>
+
+      {daysofweek.map((day)=>{
+
+         <Outfits key={day} day={day} />
+      })}
+     
       </div>
     
     </>

@@ -3,7 +3,7 @@ import Outfits from './components/outfits'
 
 
 function App() {
-  
+
   const daysofweek =[
     'Monday',
     'Tuesday', 
@@ -31,4 +31,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

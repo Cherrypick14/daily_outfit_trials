@@ -1,40 +1,40 @@
 const outfits = {
 
-    "Monday": [
+    'Monday': [
         'Casual jeans and T-shirt',
         'Blue dress', 
         'Formal suit'
       ],
-    "Tuesday": [
+    'Tuesday': [
         'Red skirt and white top',
         'Black jeans and sweater', 
         'Business casual suit'
     ],
-    "Wednesday": [
+    'Wednesday': [
         'Green dress', 
         'Shorts and a tank top', 
         'Workout clothes'
     ],
-    "Thursday": [
+    'Thursday': [
         'Brown trousers and blouse',
         'Sporty look with sneakers', 
         'Semi-formal suit'
     ],
-    "Friday": [
+    'Friday': [
         'Party dress',
         'Casual Friday denim look', 
         'Night out sleek dress'
     ],
-    "Saturday": [
+    'Saturday': [
         'Beach attire',
         'Laid back shorts and tee',
         'Date night dress'
     ],
-    "Sunday": [
+    'Sunday': [
         'Comfy PJs',
         'Sunday brunch dress', 
         'Relaxed fit for a day in'
-    ],
+    ]
 }
 
 export default outfits;

@@ -1,5 +1,5 @@
 import './App.css'
-import Outfits from './components/outfits'
+import Closet from './components/closet'
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 
          {daysofweek.map((day)=>{
 
-              <Outfits key={day} day={day} />
+           <Closet key={day} days={day} />
            })}
          </div>
       </div>
